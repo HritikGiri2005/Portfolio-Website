@@ -59,8 +59,8 @@ const About = () => {
 
         {/* right side */}
         <div className='md:w-1/2 flex justify-center md:justify-end'>
-          <Tilt>
-            <img src={ProfilePic} alt="Hritik Giri" className='w-full h-full pl-3 rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]' />
+          <Tilt className='w-48 h-48 sm:h-64 sm:w-64 md:w-[30rem] ml-2 md:h-[30rem] border-4 border-purple-700 rounded-full'>
+            <img src={ProfilePic} alt="Hritik Giri" className='w-full h-full  rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]' />
           </Tilt>
         </div>
       </div>
