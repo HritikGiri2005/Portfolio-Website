@@ -28,7 +28,7 @@ import BirlaLogo from "./assets/Education_logo/Bk Birla.webp"
 
 // Project Section Logo's
 import FaceLogo from "./assets/work_logo/FaceRecog.jpg";
-import VeriFace from "./assets/Work_logo/VeriFace.jpeg"
+import VeriFace from "./assets/work_logo/VeriFace.jpeg"
 
 
 
@@ -147,5 +147,5 @@ export const SkillsInfo = [
     },
 
   ];  
-  
+
     
