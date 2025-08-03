@@ -28,14 +28,7 @@ import BirlaLogo from "./assets/Education_logo/Bk Birla.webp"
 
 // Project Section Logo's
 import FaceLogo from "./assets/work_logo/FaceRecog.jpg";
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
+import VeriFace from "./assets/Work_logo/VeriFace.jpeg"
 
 
 
@@ -148,7 +141,7 @@ export const SkillsInfo = [
       title: "VeriFace : Deepfake Detection System",
       description:
         "VeriFace is a machine learning-based project designed to detect whether an image is real or AI-generated. This web application utilizes a Convolutional Neural Network (CNN) model based on EfficientNet to classify images. The project is built using Django for the web framework and integrates an AI model that analyzes images and predicts their authenticity. ",
-      image: csprepLogo,
+      image: VeriFace,
       tags: ["Django", "Python", "TensorFlow", "Keras", "HTML", "CSS", "JavaScript","Bootstrap","SQLite"],
       github: "https://github.com/HritikGiri2005",
     },
