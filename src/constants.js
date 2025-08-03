@@ -27,6 +27,16 @@ import KhamkarLogo from "./assets/Education_logo/Khamkar.png"
 import BirlaLogo from "./assets/Education_logo/Bk Birla.webp"
 
 // Project Section Logo's
+import FaceLogo from "./assets/work_logo/FaceRecog.jpg";
+import csprepLogo from './assets/work_logo/cs_prep.png';
+import movierecLogo from './assets/work_logo/movie_rec.png';
+import taskremLogo from './assets/work_logo/task_rem.png';
+import npmLogo from './assets/work_logo/npm.png';
+import webverLogo from './assets/work_logo/web_dig.png';
+import cmLogo from './assets/work_logo/cm.png';
+import imagesearchLogo from './assets/work_logo/image_search.png';
+import removebgLogo from './assets/work_logo/remove_bg.png';
+
 
 
 
@@ -79,9 +89,9 @@ export const SkillsInfo = [
       id: 0,
       img: prodigyLogo,
       role: "Web developer Intern",
-      company: "Prodigy infotect",
+      company: "Prodigy infotech",
       date: "Jan 2024 - Feb 2024",
-      desc: "Developed dynamic and scalable web applications using HTML, CSS, Boostrap & JavaScript, handling frontend. Collaborated with cross-functional teams to build responsive UI and optimize application performance in an agile environment.",
+      desc: "Developed dynamic and scalable web applications using HTML, CSS, Boostrap & JavaScript, handling frontend. Collaborated with cross-functional teams to build responsive UI and optimize application performance.",
       skills: [
         "HTML",
         "CSS",
@@ -89,6 +99,7 @@ export const SkillsInfo = [
         "JavaScript",
       ],
     },
+    
   ];
 
 
@@ -97,32 +108,50 @@ export const SkillsInfo = [
       id: 0,
       img: pillaiLogo,
       school: "Pillai HOC College (Autonomous), Rasayani - Panvel",
-      date: "November 2022 - June 2026",
-      grade: "8.00 CGPA",
-      desc: "I am Pursuing my Master's degree (MCA) in Computer Applications from Pillai HOC College, Rasayani - Panvel. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at Pillai HOC College has been instrumental in shaping my technical abilities and professional growth.",
+      date: "2022 - 2026",
+      grade: "8.2 CGPA",
+      desc: "I am Pursuing my Bachelor's of Technology (BTech) in Information Technology from Pillai HOC College, Rasayani - Panvel. During my time at PHCET, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, Computer Networks, Digital Forensics and Software Engineering. I am actively participated in various Hackathons, workshops and technical events, which enhance my skills and knowledge. My experience at Pillai HOC College has been instrumental in shaping my technical abilities and professional growth.",
       degree: "Bachelor's of Technology in Information Technology - BTech in IT",
     },
     {
       id: 1,
       img: BirlaLogo,
       school: "B.K Birla College (Autonomous), Kalyan",
-      date: "April 2021 - March 2022",
+      date: "2021 - 2022",
       grade: "72.83%",
-      desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
+      desc: "I completed my Higher Secondary Certificate (HSC) with a specialization in Electronics from Bk Birla College, Kalyan. During my time at Bk Birla College, I delved into a diverse range of subjects that deepened my understanding of electronics and technology. From mastering the fundamentals of Electronic Circuits and Communication Systems to exploring advanced topics in Digital Electronics and Microprocessors, I gained valuable insights into the field of electronics. My education at Bk Birla College provided me with hands-on experience through projects that applied theoretical knowledge to practical applications, preparing me for a career in technology and innovation.",
       degree: "HSC - PCM with Electronics",
     },
     {
       id: 2,
       img: KhamkarLogo,
       school: "ShriKrishna Khamkar Vidyalaya, Badlapur",
-      date: "April 2019 - March 2020",
+      date: "2019 - 2020",
       grade: "78%",
-      desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(XII) - PCM with Computer Science",
+      desc: "I've passed my class 10th education from ShriKrishna Khamkar Vidyalaya, Badlapur, Maharashtra, under the SSC board, where I studied Mathematics, Physics, Chemistry & also Biology.",
+      degree: "10th SSC board",
     },
   ];
 
+     export const projects = [
+    {
+      id: 0,
+      title: "Face Recognition Attendance System",
+      description:
+        "A Full-Stack Web Application that uses Face Recognition Technology to mark attendance for Employees and Saves the file in CSV format which we can download as an Excel Sheet.",
+      image: FaceLogo,
+      tags: ["HTML", "CSS", "JavaScript", "Python", "Django", "OpenCV", "Pandas"],
+      github: "https://github.com/HritikGiri2005/face-recognition-attendance-system",
+    },
+    {
+      id: 1,
+      title: "VeriFace : Deepfake Detection System",
+      description:
+        "VeriFace is a machine learning-based project designed to detect whether an image is real or AI-generated. This web application utilizes a Convolutional Neural Network (CNN) model based on EfficientNet to classify images. The project is built using Django for the web framework and integrates an AI model that analyzes images and predicts their authenticity. ",
+      image: csprepLogo,
+      tags: ["Django", "Python", "TensorFlow", "Keras", "HTML", "CSS", "JavaScript","Bootstrap","SQLite"],
+      github: "https://github.com/HritikGiri2005",
+    },
 
-   export const projects = [
-    
   ];  
+    
