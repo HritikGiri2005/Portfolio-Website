@@ -3,7 +3,6 @@ import htmlLogo from './assets/Tech_Logo/html.png';
 import cssLogo from './assets/Tech_Logo/css.png';
 import javascriptLogo from './assets/Tech_Logo/javascript.png';
 import reactjsLogo from './assets/Tech_Logo/reactjs.png';
-import angularLogo from './assets/Tech_Logo/angular.png';
 import reduxLogo from './assets/Tech_Logo/redux.png';
 import tailwindcssLogo from './assets/Tech_Logo/tailwindcss.png';
 import bootstrapLogo from './assets/Tech_Logo/bootstrap.png';
@@ -114,7 +113,7 @@ export const SkillsInfo = [
     },
     {
       id: 2,
-      img: vpsLogo,
+      img: KhamkarLogo,
       school: "ShriKrishna Khamkar Vidyalaya, Badlapur",
       date: "April 2019 - March 2020",
       grade: "78%",
