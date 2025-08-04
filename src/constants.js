@@ -121,7 +121,7 @@ export const education = [
     img: khamkarLogo,
     school: "ShriKrishna Khamkar Vidyalaya, Badlapur",
     date: "2019 - 2020",
-    grade: "78%",
+    grade: "84%",
     desc: "I've passed my class 10th education from ShriKrishna Khamkar Vidyalaya, Badlapur, Maharashtra, under the SSC board, where I studied Mathematics, Physics, Chemistry & also Biology.",
     degree: "10th SSC board",
   },
