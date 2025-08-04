@@ -15,10 +15,16 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [])
 
-  const handleMenuItemClick = (sectionId) => {
-    setActiveSection(sectionId);
-    setIsopen(false);
+const handleMenuItemClick = (sectionId) => {
+  setActiveSection(sectionId);
+  setIsopen(false);
+
+  const section = document.getElementById(sectionId);
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' });
   }
+};
+
 
   const menuItems = [
     { id: "about", label: "About" },
@@ -47,7 +53,6 @@ const Navbar = () => {
             <li key={item.id} className={`cursor-pointer hover:text-[#8245ec] ${activeSection === item.id ? "text-[#8245ec]" : ""
               }`}>
               <button onClick={() => handleMenuItemClick(item.id)}>
-
                 {item.label}
               </button>
             </li>
@@ -87,8 +92,8 @@ const Navbar = () => {
                   {item.label}
                 </button>
               </li>
-            ))}
-            <div className='flex space-x-4'>
+            ))} 
+            <div className='flex space-x-4 mt-1'>
               <a href="https://github.com/HritikGiri2005" target='_blank' rel='noopener noreferrer' className='text-grey-300 hover:text-white'>
                 <FaGithub size={24} />
               </a>
