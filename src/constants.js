@@ -23,7 +23,7 @@ import prodigyLogo from "./assets/Company_logo/Prodigy.webp"
 
 // Education Section Logo's
 import pillaiLogo from "./assets/Education_logo/PillaiLogo.jpg"
-import KhamkarLogo from "./assets/Education_logo/Khamkar.png"
+import khamkarLogo from "./assets/Education_logo/khamkar.png"
 import BirlaLogo from "./assets/Education_logo/Bk Birla.webp"
 
 // Project Section Logo's
@@ -118,7 +118,7 @@ export const education = [
   },
   {
     id: 2,
-    img: KhamkarLogo,
+    img: khamkarLogo,
     school: "ShriKrishna Khamkar Vidyalaya, Badlapur",
     date: "2019 - 2020",
     grade: "78%",
