@@ -27,9 +27,9 @@ import khamkarLogo from "./assets/Education_logo/khamkar.PNG"
 import BirlaLogo from "./assets/Education_logo/Bk Birla.webp"
 
 // Project Section Logo's
-import HarvestLogo from "./assets/work_logo/HarvestTrace.png"
-import FaceLogo from "./assets/work_logo/FaceRecog.jpg";
-import VeriFace from "./assets/work_logo/VeriFace.jpeg"
+import HarvestLogo from "./assets/Work_logo/HarvestTrace.png"
+import FaceLogo from "./assets/Work_logo/FaceRecog.jpg";
+import VeriFace from "./assets/Work_logo/VeriFace.jpeg"
 
 
 
