@@ -23,7 +23,7 @@ import prodigyLogo from "./assets/Company_logo/Prodigy.webp"
 
 // Education Section Logo's
 import pillaiLogo from "./assets/Education_logo/PillaiLogo.jpg"
-import khamkarLogo from "../public/khamkar.png"
+import khamkarLogo from "./assets/Education_logo/khamkar.PNG"
 import BirlaLogo from "./assets/Education_logo/Bk Birla.webp"
 
 // Project Section Logo's
