@@ -38,7 +38,7 @@ It showcases my skills, projects, and contact details in a clean and responsive 
 1. Clone the repository:
    ```bash
    git clone https://github.com/HritikGiri2005/Portfolio-Website.git
-```
+   ```
 
 2. Navigate to the project folder:
 
