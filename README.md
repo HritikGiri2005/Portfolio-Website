@@ -1,12 +1,94 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```markdown
+# 🌐 Portfolio Website
 
-Currently, two official plugins are available:
+This is my personal portfolio website, built with **React** and **Vite**.  
+It showcases my skills, projects, and contact details in a clean and responsive design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔗 Live Site: [Portfolio Website](https://hritik-giri.vercel.app)  
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** – UI library  
+- **Vite** – Fast build tool & dev server  
+- **Tailwind CSS** – Styling framework  
+- **PostCSS + ESLint** – Code quality and styling  
+
+---
+
+## ✨ Features
+
+- Modern, responsive design (mobile-friendly)  
+- Project showcase section  
+- Skills overview  
+- Contact section (email/socials)  
+- Fast load times & optimized build  
+
+---
+
+---
+
+## ⚡ Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/HritikGiri2005/Portfolio-Website.git
+```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd Portfolio-Website
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+   The site will be available at `http://localhost:3000` (or another port).
+
+5. Build for production:
+
+   ```bash
+   npm run build
+   ```
+
+6. Preview the production build:
+
+   ```bash
+   npm run preview
+   ```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork this repo, open issues, or submit pull requests.
+
+---
+
+## 📬 Contact
+
+* **GitHub:** [HritikGiri2005](https://github.com/HritikGiri2005)
+* **LinkedIn:** [Hritik Giri](https://linkedin.com/in/hritik-giri)
+* **Email:** [hritikgiri2@gmail.com](mailto:hritikgiri2@gmail.com)
+
+---
+
+> *“Striving to build web experiences that are both beautiful and performant.”*
+
